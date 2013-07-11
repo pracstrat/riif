@@ -6,11 +6,11 @@ require 'riif/version'
 Gem::Specification.new do |gem|
   gem.name          = "riif"
   gem.version       = Riif::VERSION
-  gem.authors       = ["Jun Lin"]
-  gem.email         = ["linjunpop@gmail.com"]
+  gem.authors       = ["Pracstrat"]
+  gem.email         = ["xinlangzi@gmail.com"]
   gem.description   = "A simple DSL to generate QuickBooks IIF file"
   gem.summary       = "A simple DSL to generate QuickBooks IIF file"
-  gem.homepage      = "https://github.com/linjunpop/riif"
+  gem.homepage      = "https://github.com/pracstrat/riif"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
