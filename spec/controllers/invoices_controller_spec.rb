@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe InvoicesController do
+RSpec.describe InvoicesController do
   render_views
 
   let(:expected) { File.read('spec/fixtures/rails/invoices.iif') }

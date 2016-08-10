@@ -8,7 +8,6 @@ require 'riif'
 
 # This line has to before require 'rspec/rails'
 Combustion.initialize! :action_controller, :action_view
-
 require 'rspec/rails'
 
 RSpec.configure do |config|
